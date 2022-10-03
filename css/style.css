@@ -14,6 +14,7 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 100vw;
+    background-color: white;
 }
 
 button{
@@ -22,6 +23,14 @@ button{
     border: none;
     font-weight:200;
 }
+img{
+    display: block;
+}
+
+.flex{
+    display: flex;
+}
+
 .nav-sec1{
     display: flex;
 }
@@ -41,8 +50,63 @@ button{
     width: 30%;
 }
 
-.bttn-inizia{
+.bttn-blue{
     background-color: var(--bluebttn);
     padding: .2rem .5rem;
     color: white;
 }
+
+.container1000{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.container920{
+    max-width: 920px;
+    margin: auto;
+}
+
+
+.header-secion{
+    background-color: #B4D0E7;
+    padding-left: .5rem;
+    padding-right: .5rem; 
+    text-align: center;
+    font-weight: 200;
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.position-hdr{
+    position: relative;
+    top: 100px;
+}
+
+.header-title{
+    padding: 1.5rem 0;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.header-description > p{
+   margin-bottom: 1rem;
+}
+
+.header-description > button{
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 0%;
+    margin-bottom: 1rem;
+}
+.header-description > div{
+    margin-bottom: 4rem;
+ }
+
+ .header-description > img{
+    width: 10%;
+ }
+
+.header-img{
+    width:70%;
+}
+
