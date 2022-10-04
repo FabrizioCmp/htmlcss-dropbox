@@ -34,6 +34,10 @@ footer{
     background-color: black;
 }
 
+footer > .container920{
+    margin-top: 5rem;
+    padding: 1rem 0;
+}
 
 
 .flex{
@@ -140,11 +144,15 @@ footer{
 
 .section2{
     margin-top: 5rem;
+
 }
 
 .section3{
     margin-top: 5rem;
-    background-color: antiquewhite;
+}
+
+.section3 > h2{
+    margin-bottom: 3rem;
 }
 
 .section4-link{
@@ -160,10 +168,6 @@ footer{
     margin-top: 5rem;
 }
 
-footer > .container920{
-    margin-top: 5rem;
-    padding: 1rem 0;
-}
 
 .vertical-cards{
     padding: 1rem 0;
@@ -267,6 +271,15 @@ footer > .container920{
 
 .card2 > img {
     width: 100%;
+}
+
+.card2 > h3{
+    padding: 1rem 0;
+}
+
+.card2 > p{
+    padding-bottom: 2rem;
+    font-weight: 100;
 }
 
 .section4-link > h2{
