@@ -1,5 +1,5 @@
 :root{
-    --bluebttn: #0061FF;
+    --bluebttn: rgb(0, 98, 255);
 }
 
 *{
@@ -46,6 +46,10 @@ footer > .container920{
 
 .margin2{
     margin: 2rem 0;
+}
+
+.pdg1-v{
+    padding: 1rem 0;
 }
 
 .nav-sec1{
@@ -170,6 +174,7 @@ footer > .container920{
 
 
 .vertical-cards{
+    margin-top: 2rem;
     padding: 1rem 0;
     display: flex;
     justify-content: space-between;
@@ -186,9 +191,10 @@ footer > .container920{
     padding: .5rem 0;
 }
 
-.v-card  > .plan-type > img{
-    width: 15%;
+.v-card > .plan-type > img{
+    width: 12.5px;
 }
+
 
 .Vcard-content{
     padding: 1rem;
@@ -198,20 +204,44 @@ footer > .container920{
 
 }
 
-.Vcard-content > ul{
-    list-style: none;
+.Vcard-content > h3{
+    font-size: large;
+    padding-bottom: 1rem;
 }
 
+.Vcard-content > .price{
+    padding-bottom: .5rem;
+    font-weight: bold;
+}
+
+.Vcard-content > ul{
+    list-style: none;
+    margin-top: 2rem;
+}
+.Vcard-content > ul > li{
+    display: flex;
+    column-gap: 5px;
+    padding: 1rem 0;
+}
+
+.Vcard-content > ul > li > img{
+    width: 7%;
+    height: 7%;
+}
 .Vcard-content > button{
     padding: .5rem 1.5rem;
     margin: 1rem 0;
 }
 
-.line{
+.card-line{
     background-color: lightgray;
     width: 20%;
     height: 1px;
     margin: 1rem 0;
+}
+
+.horizontal-card > .plan-type > img{
+    width: 1.5%;
 }
 
 .horizontal-card > .Hcard-content{
@@ -220,11 +250,20 @@ footer > .container920{
     border-right: 1px solid lightgray;
     border-left: 1px solid lightgray;
     justify-content: space-between;
+    padding: 1rem;
+
+}
+
+.Hcard-content >div > h3{
+    font-size: large;
 }
 
 .Hcard-content > button{
-    margin: 2rem 1.5rem;
+    margin-top: 0;
+    margin-left:  1.5rem ;
     padding: .5rem 1.5rem;
+    justify-self: flex-start;
+
 }
 
 .img-hrz{
