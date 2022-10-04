@@ -179,15 +179,17 @@ footer > .container920{
     display: flex;
     justify-content: space-between;
     column-gap: 5%;
-    
+   
 }
-
+.v-card{
+    border: 1px solid lightgray;
+}
 .plan-type{
     display: flex;
     align-items: center;
     justify-content: center;
     column-gap: .5rem;
-    border: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
     padding: .5rem 0;
 }
 
@@ -198,9 +200,6 @@ footer > .container920{
 
 .Vcard-content{
     padding: 1rem;
-    border-bottom: 1px solid lightgray;
-    border-left: 1px solid lightgray;
-    border-right: 1px solid lightgray;
 
 }
 
@@ -240,6 +239,10 @@ footer > .container920{
     margin: 1rem 0;
 }
 
+.horizontal-card > .plan-type{
+    border: 1px solid lightgray;
+}
+
 .horizontal-card > .plan-type > img{
     width: 1.5%;
 }
@@ -253,17 +256,24 @@ footer > .container920{
     padding: 1rem;
 
 }
+.Hcard-content > div{
+    width: 65%;
+}
 
 .Hcard-content >div > h3{
     font-size: large;
+    padding-bottom: 1rem;
 }
 
 .Hcard-content > button{
-    margin-top: 0;
-    margin-left:  1.5rem ;
-    padding: .5rem 1.5rem;
-    justify-self: flex-start;
+    margin:  0;
+    padding: .5rem 1.5rem;;
+    align-self: flex-start;
 
+}
+
+.Hcard-content > div > p{
+    padding-top: 2rem;
 }
 
 .img-hrz{
