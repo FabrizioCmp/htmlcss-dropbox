@@ -348,6 +348,7 @@ footer > .container920{
 }
 .clients-container > .sec2{
     width: 33%;
+    padding: 2rem;
 }
 .clients-container > .sec3{
     display: flex;
@@ -360,6 +361,7 @@ footer > .container920{
     display: flex;
     justify-content: center;
     align-items: center;
+    aspect-ratio: 1 / 1;
 }
 
 .sec3 > div{
@@ -367,6 +369,11 @@ footer > .container920{
     display: flex;
     justify-content: center;
     align-items: center;
+    aspect-ratio: 1 / 1;
+}
+
+.sec2 > img{
+    width: 50%;
 }
 
 .sec1 > div > img{
@@ -374,6 +381,8 @@ footer > .container920{
     display: block;
     padding: 2rem;
 }
+
+
 
 .sec3 > div > img{
     width: 100%;
