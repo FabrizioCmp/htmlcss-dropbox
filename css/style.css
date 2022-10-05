@@ -39,6 +39,7 @@ footer > .container920{
     padding: 1rem 0;
 }
 
+
 .flex{
     display: flex;
 }
@@ -50,7 +51,6 @@ footer > .container920{
 .pdg1-v{
     padding: 1rem 0;
 }
-
 
 .nav-sec1{
     display: flex;
@@ -77,6 +77,44 @@ footer > .container920{
     padding: .2rem .5rem;
     color: white;
 }
+
+/* dropdown-menù */
+.nav-sec2, .nav-sec1 > button{
+    position: relative;
+}
+
+.dropdown-menù{
+    position: absolute;
+    display: none;
+    background-color: white;
+    top: 100%;
+    z-index: 100;
+    min-width: 100px;
+    text-align: left;
+}
+
+.dropdown-menù > a{
+    border: 1px solid white;
+}
+
+.dropdown-menù > a{
+    padding: 13px 15px;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+.nav-sec1 > button:hover .dropdown-menù{
+    display: block;
+}
+
+.nav-sec2 > button:hover .dropdown-menù{
+    display: block;
+}
+
+.dropdown-menù > a:hover{
+    border: 1px solid var(--bluebttn);
+}
+
 
 .container1000{
     max-width: 1000px;
@@ -131,6 +169,7 @@ footer > .container920{
 .header-img{
     width:70%;
 }
+
 
 .section1{
     margin-top: 10rem;
