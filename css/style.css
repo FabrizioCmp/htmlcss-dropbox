@@ -164,13 +164,36 @@ footer > .container920{
 }
 .clients{
     margin-top: 5rem;
-    background-color: antiquewhite;
 }
-
-
 
 .section5{
     margin-top: 5rem;
+}
+.input-circle{
+    display: inline-block;
+    height: 25px;
+}
+.input-circle > span{
+    display: inline-block;
+    line-height: 25px;
+    
+}
+.input-circle > input{
+    display: none;
+}
+
+.input-circle > .circle{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid black;
+    vertical-align: text-bottom;
+    margin: .5px 1px;
+}
+
+.input-circle input:checked + .circle{
+    border: 5px solid var(--bluebttn);
 }
 
 
@@ -363,6 +386,23 @@ footer > .container920{
     align-items: center;
     aspect-ratio: 1 / 1;
 }
+.sec1 > div > img{
+    width: 100%;
+    display: block;
+    padding: 30%;
+    filter: invert();
+}
+
+.sec2 > img{
+    width: 40%;
+}
+
+.sec2 > p, .signature{
+    font-size: small;
+    font-weight: 200;
+    margin-top: 10% ;
+}
+
 
 .sec3 > div{
     width: 50%;
@@ -370,30 +410,30 @@ footer > .container920{
     justify-content: center;
     align-items: center;
     aspect-ratio: 1 / 1;
+
 }
-
-.sec2 > img{
-    width: 50%;
-}
-
-.sec1 > div > img{
-    width: 100%;
-    display: block;
-    padding: 2rem;
-}
-
-
-
 .sec3 > div > img{
     width: 100%;
     display: block;
-    padding: 2rem;
+    padding: 30%;
+    filter: invert();
 }
 
 .box-free{
     display: flex;
     justify-content: space-evenly;
     padding: 3rem 0;
+    background-color: #B4D0E7;
+    color: #61082B;
+}
+.box-free > h2{
+    width: 30%;
+}
+
+.box-free > button{
+    background-color:  white;
+    padding: .5rem 1.5rem;
+    color: black;
 }
 
 .section5 > h2{
@@ -403,6 +443,13 @@ footer > .container920{
     color: gray;
     width: 100%;
 }
+.line-client{
+    background-color: lightgray;
+    width: 20%;
+    height: 1px;
+    margin-top: 10%;
+}
+
 .Q-inner-container{
     display: flex;
     justify-content: space-between;
@@ -413,6 +460,9 @@ footer > .container920{
     display: none;  
     color: lightgray;
     padding-top: 1rem;  
+}
+.Q-container > p{
+    max-width: 80%;
 }
 
 .Q-inner-container > img{
