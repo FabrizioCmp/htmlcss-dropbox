@@ -82,7 +82,8 @@ footer > .container920{
 }
 
 /* dropdown-menù */
-.nav-sec2, .nav-sec1 > button{
+
+.p-relative{
     position: relative;
 }
 
@@ -90,7 +91,7 @@ footer > .container920{
     position: absolute;
     display: none;
     background-color: white;
-    top: 100%;
+    top: 80%;
     z-index: 100;
     min-width: 100px;
     text-align: left;
@@ -561,3 +562,10 @@ footer > .container920{
     width: 2%;
     height: 2%;
 }
+
+/**** ? *****
+
+- mrgn-section class sovrascrittura
+- height nav botton inspector
+
+**** ? ****/
