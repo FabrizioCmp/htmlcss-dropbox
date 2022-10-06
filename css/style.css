@@ -188,34 +188,16 @@ footer > .container920{
 .section1 > label{
     padding-right: 2rem;
 }
-/* 
-.section2{
-    margin-top: 5rem;
-
-}
-
-.section3{
-    margin-top: 5rem;
-} */
 
 .section3 > h2{
     margin-bottom: 3rem;
 }
-/* 
-.section4-link{
-    margin-top: 5rem;
-}
-.clients{
-    margin-top: 5rem;
-}
 
-.section5{
-    margin-top: 5rem;
-} */
 .input-circle{
     display: inline-block;
     height: 25px;
 }
+
 .input-circle > span{
     display: inline-block;
     line-height: 25px;
